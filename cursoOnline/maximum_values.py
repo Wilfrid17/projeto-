@@ -4,14 +4,14 @@ Finding the maximum of integers
 using keyboard entry
 """
 
-def maximum_values(x_value,y_value,z_value):
+def maximum_values(x_value,y_value,z_value): # function definition
     '''''Maximum values betwen three numbers'''
-    maximum = x_value
-    if y_value > maximum:
-        maximum = y_value
+    maximum = x_value # assume x is the longest value
+    if y_value > maximum: # if y is greater than x
+        maximum = y_value # y is the longest value
         
-    if x_value > maximum:
-        maximum = z_value
+    if x_value > maximum: # if z is greater than x
+        maximum = z_value # z is the longest value
         
     return maximum
 
